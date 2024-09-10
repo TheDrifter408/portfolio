@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto_condensed.className} antialiased bg-orange-500 grid`}
+        className={`${roboto_condensed.className} antialiased bg-orange-500`}
       >
         {children}
       </body>
